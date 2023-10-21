@@ -1,0 +1,8 @@
+Create main.tf, add provider and make init to load provider
+    terraform init
+Once main.tf file is ready, make a validation
+    terraform validate
+If validation is successful, split main.tf file to follow good practices     
+
+Once tf files are split and validated, apply terraform:
+    terraform apply -var-file="values.tfvars"
